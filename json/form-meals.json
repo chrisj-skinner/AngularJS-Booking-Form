@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Breakfast",
+		"price": "20",
+		"description": "Three course breakfast",
+		"active": true
+	},
+	{
+		"name": "Dinner",
+		"price": "20",
+		"description": "Three course dinner",
+		"active": false
+	},
+	{
+		"name": "Both",
+		"price": "40",
+		"description": "Breakfast and Dinner",
+		"active": false
+	}
+
+]

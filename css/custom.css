@@ -1,0 +1,89 @@
+.radio label{
+    text-transform: capitalize;
+}
+.preview {
+	list-style-type: none;
+	font-weight: 700;
+	padding-left: 0;
+}
+.preview li { margin-bottom: 5px;}
+
+form ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+form .mealType{
+	padding:10px 15px;
+	background-color:#ffffff;
+	margin-bottom:8px;
+	cursor:pointer;
+	color: #337ab7;
+	border-radius: 4px;
+	text-transform: capitalize;
+	margin-bottom: 0;
+	width: 100%;
+	border: none;
+	text-align: left;
+}
+
+form .mealType span{
+	float:right;
+}
+
+form .mealType.active{
+	background-color:#337ab7;
+	color: #ffffff;
+}
+
+form .mealType.active:hover {
+	background-color:#337ab7;
+	color: #ffffff;
+}
+
+form .mealType.active,
+form .mealType:hover {
+	outline: none;
+}
+
+.form-control:focus {
+	border-color: #ccc;
+	webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+form .mealType:hover {
+	background-color: #eee;
+	color: #23527c;
+}
+
+form label em {
+	display: block;
+	font-size: 12px;
+}
+
+form textarea {
+	width: 100%;
+	min-height: 115px;
+}
+
+form .ng-invalid.ng-dirty {
+	border-color:#FA787E;
+}
+
+form .ng-valid.ng-dirty {
+	border-color:#78FA89;
+}
+
+form .form-valid  { 
+	color: #FA787E;
+}
+
+form .form-valid.active {
+	color: #78FA89;
+}
+
+.required { color: red;}
+
+.btn-group .btn.btn-sm.btn-info.ng-binding { display: none;}
+.btn-group .btn.btn-sm.btn-danger.ng-binding { border-radius: 3px;}
